@@ -88,9 +88,9 @@ h1{
     justify-content: right;
     width: 50%;
 }
-img.example{
+img.code{
     border-radius: 15px;
-    height: 80%;
+    height: 100%;
 }
 /*Section 3*/
 .section-3{
@@ -109,21 +109,42 @@ h2{
 .images-section{
     align-items: center;
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
 div.image>img{
     border: 6px solid var(--light-blue-color);
     border-radius: 8px;
-    height: 120px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
 }
 div.image{
     text-align: center;
-    width: 160px;
+    width: 320px;
 }
 .image>p{
     color: var(--dark-blue-color);
     font-weight: 400;
     line-height: 20px;
     margin-top: 5px;
+}
+/* Section 4 */
+.section-4{
+    padding: var(--structure-padding);
+    background-color: var(--weak-white-color);
+}
+.quote{
+    margin: 70px;
+}
+p.quote-text{
+    color: var(--dark-blue-color);
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 5px;
+}
+p.source{
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
 }
