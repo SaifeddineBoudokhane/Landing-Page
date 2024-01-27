@@ -68,10 +68,11 @@ h1{
 button{
     background-color: var(--light-blue-color);
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     color: var(--weak-white-color);
+    font-size: 19px;
     font-weight: 900;
-    padding: 5px 15px;
+    padding: 8px 18px;
     width: fit-content;
 }
 button:hover{
@@ -109,8 +110,8 @@ h2{
 .images-section{
     align-items: center;
     display: flex;
-    justify-content: center;
     gap: 30px;
+    justify-content: center;
 }
 div.image>img{
     border: 6px solid var(--light-blue-color);
@@ -130,8 +131,8 @@ div.image{
 }
 /* Section 4 */
 .section-4{
-    padding: var(--structure-padding);
     background-color: var(--weak-white-color);
+    padding: var(--structure-padding);
 }
 .quote{
     margin: 70px;
@@ -140,44 +141,57 @@ div.image{
 p.quote-text{
     color: var(--dark-blue-color);
     font-size: 36px;
-    font-weight: 300;
     font-style: italic;
+    font-weight: 300;
     margin: 5px;
 }
 
 p.source{
-    font-weight: bold;
-    font-size: 20px;
     float: right;
+    font-size: 20px;
+    font-weight: bold;
 }
 /* Section 5 */
 
 .section-5{
-    padding: var(--structure-padding);
     color: var(--strong-white-color);
+    padding: var(--structure-padding);
 }
 .section-5>div{
+    align-items: center;
     background-color: var(--light-blue-color);
     border-radius: 10px;
-    padding: 70px 120px;
-    margin: 70px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin: 70px;
+    padding: 70px 120px;
 }
 .section-5>div>button{
     border: 2px solid var(--strong-white-color);
     border-radius: 10px;
+    font-size: 19px;
     font-weight: 900;
     padding: 5px 18px;
     width: fit-content;
-    font-size: 19px;
 }
 
 .call-to-action{
-    font-weight: bold;
     font-size: 25px;
+    font-weight: bold;
 }
 .copywrite{
     font-size: 18px;
+}
+
+/* Section 6 */
+.section-6{
+    background-color: var(--dark-blue-color);
+    color: var(--strong-white-color);
+    padding: var(--structure-padding);
+    text-align: center;
+}
+.section-6>p{
+    font-size: 25px;
+    margin: 70px;
+    word-spacing: 5px;
 }
