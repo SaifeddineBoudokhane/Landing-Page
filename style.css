@@ -136,6 +136,7 @@ div.image{
 .quote{
     margin: 70px;
 }
+
 p.quote-text{
     color: var(--dark-blue-color);
     font-size: 36px;
@@ -143,8 +144,40 @@ p.quote-text{
     font-style: italic;
     margin: 5px;
 }
+
 p.source{
     font-weight: bold;
     font-size: 20px;
     float: right;
+}
+/* Section 5 */
+
+.section-5{
+    padding: var(--structure-padding);
+    color: var(--strong-white-color);
+}
+.section-5>div{
+    background-color: var(--light-blue-color);
+    border-radius: 10px;
+    padding: 70px 120px;
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-5>div>button{
+    border: 2px solid var(--strong-white-color);
+    border-radius: 10px;
+    font-weight: 900;
+    padding: 5px 18px;
+    width: fit-content;
+    font-size: 19px;
+}
+
+.call-to-action{
+    font-weight: bold;
+    font-size: 25px;
+}
+.copywrite{
+    font-size: 18px;
 }
